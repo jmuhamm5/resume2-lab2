@@ -1,6 +1,7 @@
 $(document).ready(function(){
     // Carousel Slider
     $('.carousel.carousel-slider').carousel({fullWidth: true});
+
     // Next slide
     $('.carousel').carousel('next');
     $('.carousel').carousel('next', 3); // Move next n times.
@@ -10,7 +11,8 @@ $(document).ready(function(){
     $('.carousel').carousel('prev', 4); // Move prev n times.
 
     // Set to nth slide
-    //$('.carousel').carousel('set', 4);
+    $('.carousel').carousel('set', 4);
 
-    //$('.parallax').parallax();
+    // Parallax
+    $('.parallax').parallax();
 });

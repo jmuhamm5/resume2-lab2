@@ -1,4 +1,7 @@
 * {
   box-sizing: border-box; }
 
+.parallax-container {
+  height: em(500px); }
+
 /*# sourceMappingURL=main.css.map */
