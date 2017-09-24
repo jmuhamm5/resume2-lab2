@@ -2,3 +2,59 @@
     box-sizing: border-box;
 }
 
+
+@include google-font("Alegreya+Sans");
+@include google-font("Titillium+Web");
+
+@include fancy-links;
+
+@include apply-to-ie-6 {
+  body {
+    font-size: 125%;
+  }
+}
+
+body {
+  font-family: sans-serif;
+  font-size: em(18px);
+  color: $text-color;
+  background-color: $body-background-color;
+  /* If-Else SASS statement
+  @if $contrast == high {
+    color: #000;
+  } @else if $contrast == low {
+    color: #999;
+  } @else {
+    color: $text-color;
+  }
+  */
+
+  @include large-screens {
+    font-size: 125%;
+  }
+}
+
+h1, h2, h3, h4 {
+    font-family: $headline-font;
+    color: $text-color;
+}
+
+h2 {
+  @include large-text;
+}
+
+p {
+    font-family: $text-font;
+}
+
+a {
+    color: $link-color;
+
+    @include blue-beans {
+      color: #8779ff;
+    }
+
+    &:hover {
+      color: darken($link-color, 15%);
+    }
+}
