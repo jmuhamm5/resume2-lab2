@@ -32,11 +32,11 @@
 }
 
 
-@mixin rounded($radius: 6px) {
+@mixin rounded($radius: 0) {
   border-radius: $radius;
 }
 
-@mixin box($radius: 6px, $border: 1px solid #000) {
+@mixin box($radius: 0, $border: 1px solid #000) {
   @include rounded($radius);
   border: $border;
 }

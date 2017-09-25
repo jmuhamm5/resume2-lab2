@@ -21,7 +21,7 @@
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#photos">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -41,7 +41,7 @@
         <!-- About -->
         <section id="about">
           <!-- Education -->
-          <div class="about">
+          <div class="container">
             <div class="row">
               <div class="col s6">
                 <h1>Hello</h1>
@@ -50,7 +50,7 @@
               </div>
               <!-- Extra Info -->
               <div class="col s6">
-                <p>
+                <p class="white">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
               </div>
@@ -65,15 +65,23 @@
         </section><!-- ./parallax -->
         <!-- Experience -->
         <section id="experience">
-          <div class="content">
-            <h5>The White House</h5>
-            <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <h5>ROC Nation LLC</h5>
-            <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <h5>Def Jam Recordings</h5>
-            <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <h5>Platypi</h5>
-            <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="container">
+            <div class="row">
+              <h5>The White House</h5>
+              <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="row">
+              <h5>ROC Nation LLC</h5>
+              <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="row">
+              <h5>Def Jam Recordings</h5>
+              <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="row">
+              <h5>Platypi</h5>
+              <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
           </div>
         </section><!-- ./experience -->
         <!-- Parallax -->
@@ -107,23 +115,30 @@
             </div>
         </section><!-- ./video-container -->
         <!-- Contact -->
-        <section id="form">
-          <div class="content">
-              <h1>Contact Me</h1>
-              <p>I will respond as soon as possible.</p>
-              <p>hiromi@gmail.com</p>
+        <section id="contact" >
+          <div class="container browser-default">
+            <h1>Contact Me</h1>
+            <p>I will respond to your message as soon as possible.</p>
+            <br><br>
+            <form>
+              <!-- Name -->
+              <input class="browser-default" type="text" name="firstname" placeholder="Name">
               <br><br>
-              <input type="text" name="name" placeholder="Name"><br>
-              <input type="email" name="email" placeholder="Email"><br>
-              <textarea name="message" rows="8" cols="40"></textarea><br>
-              <input type="button" name="Send" value="Submit">
+              <!-- Email -->
+              <input class="browser-default" type="email" name="email" placeholder="Email">
+              <br><br>
+              <!-- Message -->
+              <textarea class="browser-default" name="message" rows="8" cols="40" placeholder="Message"></textarea>
+              <br><br>
+              <input type="submit" value="SEND">
+            </form>
 
           </div>
         </section><!-- ./contact -->
      </div><!-- ./container -->
      <footer>
 
-         <p><img href="images/dribble.svg" /> THANKS FOR VISITING! <img href="images/instagram.svg" /></p>
+         <p class="center-align"><img href="images/dribble.svg" /> THANKS FOR VISITING! <img href="images/instagram.svg" /></p>
 
      </footer><!-- footer -->
 

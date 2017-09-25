@@ -6,15 +6,8 @@
 
 
 
-
-
-
-.parallax-container {
-      height: em(500px);
-}
-
 #experience {
-  .content {
+  .container {
 
     h5 {
       border-bottom: 2px solid $theme-color;
@@ -29,7 +22,7 @@
 #photos {
   margin: 0;
   padding: 0;
-
+  height: 100%;
   /* Prevent vertical gaps */
   line-height: 0;
 
@@ -42,20 +35,52 @@
 
   img {
     /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
+    width: 100% !important;
+    height: auto !important;
   }
 
 }
 
 #about {
-  height: em(200px);
+  height: 150%;
   background-color: $background-color;
+  .container {
+    .row {
+      
+    }
+  }
+}
+
+input[type=text], input[type=email] {
+  border: 1px solid #000;
+  border-radius: 0;
+  width: 100% ;
+  height: 100%;
+  padding: 1.5% 0;
+}
+
+input[type=submit] {
+  border:none;
+  padding: 2.5% 0;
+  width: 20%;
+  margin-left: 40%;
+  margin-bottom: 10%;
+  color: $white-color;
+  background-color: $ternary-color;
+}
+
+textarea {
+  border: 1px solid #000;
+  border-radius: 0;
+  width: 100% ;
+  height: auto !important;
+}
+
+footer {
+  border-top: 2px solid #000;
 }
 
 
-
-section {
-  padding: 0;
-  margin: 0;
+#video {
+  top: -5%;
 }
