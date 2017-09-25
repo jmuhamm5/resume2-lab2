@@ -1,1 +1,72 @@
+/* Responsive Design for Diff. Style Screens */
+@mixin tiny-screens() {
+  @media only screens and (max-width: 320px) {
+    @content;
+  }
+}
 
+@mixin small-screens() {
+  @media only screens and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin medium-screens() {
+  @media only screens and (max-width: 680px) {
+    @content;
+  }
+}
+
+@mixin large-screens() {
+  @media only screens and (max-width: 960px) {
+    @content;
+  }
+}
+
+
+/* For Internet Explorer 7 Users */
+@mixin apply-to-ie-7 {
+  * html {
+    @content;
+  }
+}
+
+
+@mixin rounded($radius: 6px) {
+  border-radius: $radius;
+}
+
+@mixin box($radius: 6px, $border: 1px solid #000) {
+  @include rounded($radius);
+  border: $border;
+}
+
+
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
