@@ -42,11 +42,13 @@
 }
 
 #about {
-  height: 150%;
+  height: 250%;
   background-color: $background-color;
   .container {
     .row {
-      
+      .white {
+        padding: 4%;
+      }
     }
   }
 }
@@ -78,6 +80,7 @@ textarea {
 
 footer {
   border-top: 2px solid #000;
+  
 }
 
 

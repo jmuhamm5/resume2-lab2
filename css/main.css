@@ -52,10 +52,10 @@ body {
     height: auto !important; }
 
 #about {
-  height: 150%;
+  height: 250%;
   background-color: #efefef; }
-  #about .container .row .col .s6 .white {
-    margin-left: 20%; }
+  #about .container .row .white {
+    padding: 4%; }
 
 input[type=text], input[type=email] {
   border: 1px solid #000;
@@ -81,6 +81,12 @@ textarea {
 
 footer {
   border-top: 2px solid #000; }
+  footer .center-align p svg {
+    height: 50;
+    width: 50; }
+    footer .center-align p svg img {
+      height: 2px;
+      width: 2px; }
 
 #video {
   top: -5%; }
