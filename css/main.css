@@ -54,8 +54,10 @@ body {
 #about {
   height: 250%;
   background-color: #efefef; }
-  #about .container .row .white {
-    padding: 4%; }
+  #about .container .row .box {
+    padding-top: 20px; }
+    #about .container .row .box .white {
+      padding: 4%; }
 
 input[type=text], input[type=email] {
   border: 1px solid #000;
@@ -81,12 +83,16 @@ textarea {
 
 footer {
   border-top: 2px solid #000; }
-  footer .center-align p svg {
-    height: 50;
-    width: 50; }
-    footer .center-align p svg img {
-      height: 2px;
-      width: 2px; }
+  footer p {
+    margin-top: -10%; }
+  footer svg {
+    padding: 0;
+    margin: 0; }
+    footer svg #instagram {
+      margin: 0; }
+  footer img {
+    height: 26px;
+    width: 26px; }
 
 #video {
   top: -5%; }
