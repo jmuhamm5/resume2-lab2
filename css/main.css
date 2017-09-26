@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0; }
+  margin-top: 0 !important;
+  margin-bottom: 0 !important; }
 
 body {
   display: block; }
@@ -49,7 +50,9 @@ body {
   #photos img {
     /* Just in case there are inline attributes */
     width: 100% !important;
-    height: auto !important; }
+    height: auto !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important; }
 
 #about {
   height: 250%;
@@ -96,5 +99,8 @@ footer {
 
 #video {
   top: -5%; }
+
+#thirdParallax {
+  margin-top: -5px; }
 
 /*# sourceMappingURL=main.css.map */

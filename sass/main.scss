@@ -37,7 +37,8 @@
     /* Just in case there are inline attributes */
     width: 100% !important;
     height: auto !important;
-
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
   }
 
 }
@@ -115,4 +116,8 @@ footer {
 
 #video {
   top: -5%;
+}
+
+#thirdParallax {
+    margin-top: -5px;
 }
