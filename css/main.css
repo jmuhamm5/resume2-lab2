@@ -86,14 +86,13 @@ textarea {
 footer {
   border-top: 2px solid #000; }
   footer p {
-    margin-top: -10%; }
+    margin-top: -10%;
+    display: inline-block; }
   footer svg {
     padding: 0;
     margin: 0;
     height: 1%;
     width: 1%; }
-    footer svg #instagram {
-      left: -100px; }
   footer img {
     height: 26px;
     width: 26px; }
